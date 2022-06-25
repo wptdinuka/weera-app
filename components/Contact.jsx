@@ -76,7 +76,7 @@ export default function ContactForm() {
                     variant="ghost"
                     size="lg"
                     fontSize="3xl"
-                    icon={<MdEmail ></MdEmail>}
+                    icon={<MdEmail/>}
                     _hover={{
                       bg: "blue.500",
                       color: useColorModeValue("white", "gray.700"),
@@ -92,7 +92,7 @@ export default function ContactForm() {
                     variant="ghost"
                     size="lg"
                     fontSize="3xl"
-                    icon={<BsGithub></BsGithub>}
+                    icon={<BsGithub/>}
                     _hover={{
                       bg: "blue.500",
                       color: useColorModeValue("white", "gray.700"),
@@ -106,7 +106,7 @@ export default function ContactForm() {
                     aria-label="linkedin"
                     variant="ghost"
                     size="lg"
-                    icon={<BsLinkedin size="28px" ></BsLinkedin>}
+                    icon={<BsLinkedin size="28px" />}
                     _hover={{
                       bg: "blue.500",
                       color: useColorModeValue("white", "gray.700"),
@@ -139,7 +139,7 @@ export default function ContactForm() {
                       <FormLabel>Name</FormLabel>
 
                       <InputGroup>
-                        <InputLeftElement children={<BsPerson></BsPerson>} />
+                        <InputLeftElement children={<BsPerson/>} ></InputLeftElement>
                         <Input
                           type="text"
                           name="name"
@@ -152,7 +152,7 @@ export default function ContactForm() {
                       <FormLabel>Email</FormLabel>
 
                       <InputGroup>
-                        <InputLeftElement children={<MdOutlineEmail></MdOutlineEmail>} />
+                        <InputLeftElement children={<MdOutlineEmail/>} ></InputLeftElement>
                         <Input
                           type="email"
                           name="email"
