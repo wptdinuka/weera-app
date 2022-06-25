@@ -76,7 +76,7 @@ export default function ContactForm() {
                     variant="ghost"
                     size="lg"
                     fontSize="3xl"
-                    icon={<MdEmail />}
+                    icon={<MdEmail ></MdEmail>}
                     _hover={{
                       bg: "blue.500",
                       color: useColorModeValue("white", "gray.700"),
@@ -86,13 +86,13 @@ export default function ContactForm() {
                   />
                 </Tooltip>
 
-                <Link href="#">
+                <Link href="https://github.com/wptdinuka">
                   <IconButton
                     aria-label="github"
                     variant="ghost"
                     size="lg"
                     fontSize="3xl"
-                    icon={<BsGithub />}
+                    icon={<BsGithub></BsGithub>}
                     _hover={{
                       bg: "blue.500",
                       color: useColorModeValue("white", "gray.700"),
@@ -101,12 +101,12 @@ export default function ContactForm() {
                   />
                 </Link>
 
-                <Link href="#">
+                <Link href="https://www.linkedin.com/in/dinuka-weerasingha-a809211a0/">
                   <IconButton
                     aria-label="linkedin"
                     variant="ghost"
                     size="lg"
-                    icon={<BsLinkedin size="28px" />}
+                    icon={<BsLinkedin size="28px" ></BsLinkedin>}
                     _hover={{
                       bg: "blue.500",
                       color: useColorModeValue("white", "gray.700"),
