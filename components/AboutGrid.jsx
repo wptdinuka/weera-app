@@ -21,7 +21,8 @@ const AboutGrid = () => {
           <VStack>
             <Image w={{base: 230, md: 300}}  mt={10} mx={10} 
             borderRadius={'lg'}
-            src="/portrait.jpg" />
+          src="/portrait.jpg"
+          alt="wpt" ></Image>
             <Text w={{base: 260, md: 300}}  fontSize={'lg'} p={5} textAlign={"center"}>
               I am a Student from Sri Lanka and am currently studying in TH
               WILDAU. I am very experienced in gathering new Information in

@@ -23,7 +23,7 @@ import { BsGithub, BsLinkedin, BsPerson } from "react-icons/bs";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
 
 export default function ContactForm() {
-  const { hasCopied, onCopy } = useClipboard("example@example.com");
+  const { hasCopied, onCopy } = useClipboard("thwe2434@th-wildau.de");
   const toast = useToast();
 
   return (
@@ -139,7 +139,7 @@ export default function ContactForm() {
                       <FormLabel>Name</FormLabel>
 
                       <InputGroup>
-                        <InputLeftElement children={<BsPerson />} />
+                        <InputLeftElement children={<BsPerson></BsPerson>} />
                         <Input
                           type="text"
                           name="name"
@@ -152,7 +152,7 @@ export default function ContactForm() {
                       <FormLabel>Email</FormLabel>
 
                       <InputGroup>
-                        <InputLeftElement children={<MdOutlineEmail />} />
+                        <InputLeftElement children={<MdOutlineEmail></MdOutlineEmail>} />
                         <Input
                           type="email"
                           name="email"
