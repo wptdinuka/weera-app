@@ -120,7 +120,7 @@ export default function ContactForm() {
                 action="https://formsubmit.co/11a42fc5d952e0d92633b24a9c85a2e9"
                 method="POST"
               >
-                <input type="hidden" name="_captcha" value="false"></input>
+       
                 <input
                   type="hidden"
                   name="_next"
